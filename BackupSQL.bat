@@ -1,0 +1,1 @@
+sqlcmd -S .\SQLEXPRESS -U sa -P IT@12345 -Q "EXEC sp_BackupDatabases @backupLocation='C:\DbBackup\', @backupType='F'"
